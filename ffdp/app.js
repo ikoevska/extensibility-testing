@@ -10,7 +10,6 @@
             app.mobileApp = new kendo.mobile.Application(document.body, {
                 transition: 'slide',
                 skin: 'flat',
-                initial: 'components/home/view.html'
             });
         });
     };
@@ -20,7 +19,6 @@
             if (navigator && navigator.splashscreen) {
                 navigator.splashscreen.hide();
             }
-
             bootstrap();
         }, false);
     } else {
